@@ -12,4 +12,9 @@ letterIndex :: Int -> Char
 letterIndex x =
   "Curry" !! x
 
+rvrs :: String -> String
+rvrs x = concat [(take 2 (drop 6 x)), " ", (take 5 x)]
+
+
+
 
